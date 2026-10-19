@@ -1,0 +1,16 @@
+{
+  "mode": "hybrid",
+  "recall_at_5": 1.0,
+  "hits": 30,
+  "answerable": 30,
+  "refused": 5,
+  "unanswerable": 5,
+  "avg_seconds": {
+    "embed": 0.013384666666873575,
+    "dense": 0.006734374999723514,
+    "bm25": 0.0016694873998252054,
+    "fuse": 2.182363314204849e-05,
+    "generate": 7.822481883200089
+  },
+  "missed": []
+}

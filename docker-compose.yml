@@ -1,0 +1,35 @@
+# Runs the app and Ollama with no internet access.
+# One-time setup (needs internet, done on the host): ollama pull llama3.1:8b nomic-embed-text,
+# then download the reranker once (see README). Both model folders are mounted read-only below.
+services:
+  ollama:
+    image: ollama/ollama
+    volumes:
+      - ~/.ollama:/root/.ollama:ro
+    networks: [airgap]
+
+  app:
+    build: .
+    environment:
+      OLLAMA_HOST: http://ollama:11434
+    volumes:
+      - ./data:/app/data
+      - ./logs:/app/logs
+      - ./results:/app/results:ro
+      - ~/.cache/huggingface:/root/.cache/huggingface:ro
+    networks: [airgap]
+    depends_on: [ollama]
+
+  # A network with no internet can't publish a port to the browser, so this tiny container
+  # forwards localhost:8501 to the app. It holds no data; the app and Ollama stay offline.
+  gateway:
+    image: alpine/socat
+    command: tcp-listen:8501,fork,reuseaddr tcp:app:8501
+    ports:
+      - "127.0.0.1:8501:8501"
+    networks: [airgap, default]
+    depends_on: [app]
+
+networks:
+  airgap:
+    internal: true  # containers on this network cannot reach the internet

@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+data/chroma/
+logs/
+data/docs/*
+!data/docs/.gitkeep
+docs/PROJECT_GUIDE.txt

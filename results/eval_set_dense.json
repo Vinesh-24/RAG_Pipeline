@@ -1,0 +1,51 @@
+{
+  "mode": "dense",
+  "recall_at_5": 0.8333333333333334,
+  "hits": 25,
+  "answerable": 30,
+  "refused": 5,
+  "unanswerable": 5,
+  "avg_seconds": {
+    "embed": 0.010307051333317456,
+    "dense": 0.003761348733435928,
+    "generate": 9.133012158000202
+  },
+  "missed": [
+    {
+      "question": "Can an ACE inhibitor be combined with an ARB to treat hypertension?",
+      "source": "hypertension",
+      "pages": [
+        20
+      ]
+    },
+    {
+      "question": "What clinic blood pressure range defines stage 1 hypertension?",
+      "source": "hypertension",
+      "pages": [
+        25
+      ]
+    },
+    {
+      "question": "What should be done about higher statin doses when eGFR is below 30 ml per minute per 1.73 m2?",
+      "source": "cardiovascular",
+      "pages": [
+        36
+      ]
+    },
+    {
+      "question": "How should eyes with diabetic retinopathy be treated and monitored when they have different active pathologies?",
+      "source": "diabetic-retinopathy",
+      "pages": [
+        10
+      ]
+    },
+    {
+      "question": "Which insulin is offered as basal insulin therapy for adults with type 1 diabetes?",
+      "source": "type-1",
+      "pages": [
+        25,
+        56
+      ]
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "mode": "dense",
+  "recall_at_5": 0.8,
+  "hits": 8,
+  "answerable": 10,
+  "refused": 5,
+  "unanswerable": 5,
+  "avg_seconds": {
+    "embed": 0.010082208500534762,
+    "dense": 0.0040553164999437286,
+    "generate": 2.4955220912001095
+  },
+  "missed": [
+    {
+      "question": "Should adults with type 1 diabetes take aspirin to prevent a first heart attack or stroke?",
+      "source": "type-1",
+      "pages": [
+        35
+      ]
+    },
+    {
+      "question": "How many times does someone with heart failure need the pneumococcal jab?",
+      "source": "chronic-heart",
+      "pages": [
+        29
+      ]
+    }
+  ]
+}

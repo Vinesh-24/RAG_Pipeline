@@ -1,0 +1,212 @@
+{
+  "model": "llama3.1:8b",
+  "correct": 40,
+  "answerable": 40,
+  "refused": 10,
+  "unanswerable": 10,
+  "decode_tokens_per_second": 83.50072376370957,
+  "prefill_tokens_per_second": 837.2194556434664,
+  "memory_gb": 5.951214059,
+  "answers": [
+    {
+      "question": "What clinic blood pressure should adults with hypertension aged under 80 be treated to?",
+      "answer": "Below 140/90 mmHg (Source 1)"
+    },
+    {
+      "question": "What is the clinic blood pressure target for adults with hypertension aged 80 and over?",
+      "answer": "Below 150/90 mmHg (Source 2)."
+    },
+    {
+      "question": "Below what blood potassium level should spironolactone be considered for resistant hypertension at step 4?",
+      "answer": "4.5 mmol/l (Source 1)"
+    },
+    {
+      "question": "Should adults of any age with persistent stage 2 hypertension be offered antihypertensive drug treatment?",
+      "answer": "Yes, according to recommendation 1.4.9, adults of any age with persistent stage 2 hypertension should be offered antihypertensive drug treatment in addition to lifestyle advice. (Source 1)"
+    },
+    {
+      "question": "Can an ACE inhibitor be combined with an ARB to treat hypertension?",
+      "answer": "No, do not combine an ACE inhibitor with an ARB to treat hypertension. (Source 1)"
+    },
+    {
+      "question": "What clinic blood pressure range defines stage 1 hypertension?",
+      "answer": "140/90 mmHg to 159/99 mmHg (Source 1)"
+    },
+    {
+      "question": "What limits on fat intake are advised in the diet for people at high risk of cardiovascular disease?",
+      "answer": "People at high risk of or with cardiovascular disease (CVD) are advised to eat a diet in which total fat intake is 30% or less of total energy intake, and saturated fats are 7% or less of total energy intake (Source 1)."
+    },
+    {
+      "question": "Which statin and dose is offered for the primary or secondary prevention of CVD in people with CKD?",
+      "answer": "Atorvastatin 20 mg (Source 1)."
+    },
+    {
+      "question": "What should be done about higher statin doses when eGFR is below 30 ml per minute per 1.73 m2?",
+      "answer": "Agree the use of higher doses with a renal specialist if eGFR is less than 30 ml per minute per 1.73 m2. (Source 1)"
+    },
+    {
+      "question": "What starting dose of atorvastatin is retained for the primary prevention of CVD?",
+      "answer": "The committee agreed to retain 20 mg as the recommended starting dose for all people starting atorvastatin for primary prevention of CVD. (Source 1)"
+    },
+    {
+      "question": "What should the care plan for a person with heart failure include?",
+      "answer": "The care plan for a person with heart failure should include:\n\n* plans for managing the person's heart failure, including follow-up care, rehabilitation and access to social care (Source 1)\n* symptoms to look out for in case of deterioration (Source 1)\n* a process for any subsequent access to the specialist heart failure MDT if needed (Source 1)\n* contact details for a named healthcare coordinator (usually a specialist heart failure nurse) and alternative local heart failure specialist care providers, for urgent care or review (Source 1)\n* additional sources of information for people with heart failure (Source 1)\n\nAdditionally, the care plan should be reviewed and updated whenever the person's care goals change, or as part of advance care planning if they are nearing the end of life (Source 3)."
+    },
+    {
+      "question": "When should hydralazine in combination with nitrate be considered for heart failure?",
+      "answer": "If the person is of African or Caribbean ethnicity and has moderate to severe heart failure [New York Heart Association class III/IV] with reduced ejection fraction (Source 2)."
+    },
+    {
+      "question": "When should digoxin be offered to people with heart failure with reduced ejection fraction?",
+      "answer": "Digoxin should be offered to people with worsening or severe heart failure with reduced ejection fraction despite optimised treatment combinations as detailed in recommendations 1.4.1 to 1.4.4. Seek specialist advice before starting treatment. (Source 1)"
+    },
+    {
+      "question": "What should be included when monitoring all people with heart failure at a clinical review?",
+      "answer": "According to Source 3, page 27, when monitoring all people with heart failure at a clinical review, the following should be included:\n\n* a clinical assessment of functional capacity, fluid status, cardiac rhythm (minimum of examining the pulse), cognitive status and nutritional status\n* a review of medication, including need for changes and possible side effects\n* an assessment of renal function\n* iron status and haemoglobin measurement.\n\nNote: This is a minimum. Provide further monitoring for people with comorbidities or co-prescribed medications. (Source 3, 1.8.1)"
+    },
+    {
+      "question": "Should urine microscopy be used to confirm a positive reagent strip result for haematuria?",
+      "answer": "No, do not use urine microscopy to confirm a positive result (Source 1)."
+    },
+    {
+      "question": "At what ACR should an ARB or ACE inhibitor be offered to adults with CKD and diabetes?",
+      "answer": "An ARB or ACE inhibitor should be offered to adults with CKD and diabetes if the ACR is 3 mg/mmol or more. (Source 1)"
+    },
+    {
+      "question": "How often should iron stores be monitored with serum ferritin to prevent iron overload in anaemia of CKD?",
+      "answer": "Iron stores should be monitored with serum ferritin at intervals of 1 to 3 months to prevent iron overload in anaemia of CKD. (Source 1)"
+    },
+    {
+      "question": "How often should haemoglobin be monitored in the induction phase of ESA therapy?",
+      "answer": "Every 2 to 4 weeks (Source 1)"
+    },
+    {
+      "question": "How often should the risk of developing a diabetic foot problem be assessed in adults with diabetes?",
+      "answer": "When diabetes is diagnosed, and at least annually thereafter, and if any foot problems arise, or on any admission to hospital, and if there is any change in their status while they are in hospital. (Source 4)"
+    },
+    {
+      "question": "What size monofilament should be used as part of a foot sensory examination for neuropathy?",
+      "answer": "A 10 g monofilament should be used as part of a foot sensory examination for neuropathy (Source 1)."
+    },
+    {
+      "question": "Should the Wagner classification system be used to assess the severity of a diabetic foot ulcer?",
+      "answer": "No, the Wagner classification system should not be used to assess the severity of a diabetic foot ulcer (Source 1)."
+    },
+    {
+      "question": "Which kind of casting is offered to offload plantar neuropathic, non-ischaemic, uninfected forefoot and midfoot diabetic ulcers?",
+      "answer": "Non-removable casting is offered to offload plantar neuropathic, non-ischaemic, uninfected forefoot and midfoot diabetic ulcers. (Source 2)"
+    },
+    {
+      "question": "How long after the end of treatment for proliferative diabetic retinopathy should disease regression be assessed?",
+      "answer": "2 to 3 months after the end of treatment (Source 1)."
+    },
+    {
+      "question": "For how long should people whose proliferative diabetic retinopathy has regressed be monitored by hospital eye services?",
+      "answer": "People whose proliferative diabetic retinopathy has regressed should be monitored by hospital eye services for 12 months after the end of treatment, using an individualised monitoring frequency (Source 1)."
+    },
+    {
+      "question": "How should eyes with diabetic retinopathy be treated and monitored when they have different active pathologies?",
+      "answer": "Eyes with diabetic retinopathy should be treated and monitored separately based on each eye's active pathologies, rather than only the most severe pathology (Source 1). This is because treating each eye based on all its active pathologies reduces the risk of other pathologies progressing if treatment only focuses on the most severe one (Source 1)."
+    },
+    {
+      "question": "Should adults with type 1 diabetes be advised to follow a low glycaemic index diet for blood glucose control?",
+      "answer": "No, adults with type 1 diabetes should not be advised to follow a low glycaemic index diet for blood glucose control. (Source 1)"
+    },
+    {
+      "question": "Which insulin is offered as basal insulin therapy for adults with type 1 diabetes?",
+      "answer": "Twice-daily insulin detemir (Source 2)."
+    },
+    {
+      "question": "Which basal insulin is an option for adults with type 1 diabetes if there is particular concern about nocturnal hypoglycaemia?",
+      "answer": "Degludec (100 units/ml) is an option for adults with type 1 diabetes if there is a particular concern about nocturnal hypoglycaemia (Source 2)."
+    },
+    {
+      "question": "How often should HbA1c be measured in adults with type 2 diabetes once HbA1c and therapy are stable?",
+      "answer": "Every 6 months (Source 2)."
+    },
+    {
+      "question": "What should commissioners and providers do to address inequalities in SGLT-2 inhibitor access and uptake?",
+      "answer": "Commissioners, providers and healthcare professionals should address inequalities in SGLT-2 inhibitor access and uptake by:\n\u2022 monitoring who is using SGLT-2 inhibitors\n\u2022 identifying groups who are eligible but who have a lower uptake\n\u2022 making plans to engage with these groups to encourage them to use SGLT-2 inhibitors. (Source 1)"
+    },
+    {
+      "question": "What is the recommended dose of amoxicillin for otitis media in children?",
+      "answer": "I can't find this in the documents."
+    },
+    {
+      "question": "How should asthma be managed in adults?",
+      "answer": "I can't find this in the documents."
+    },
+    {
+      "question": "What is the recommended treatment for migraine?",
+      "answer": "I can't find this in the documents."
+    },
+    {
+      "question": "How should a hip fracture be treated in older people?",
+      "answer": "I can't find this in the documents."
+    },
+    {
+      "question": "What is the recommended treatment for gestational diabetes?",
+      "answer": "I can't find this in the documents."
+    },
+    {
+      "question": "If a water tablet is needed to lower blood pressure, which type is preferred over bendroflumethiazide?",
+      "answer": "A thiazide-like diuretic, such as indapamide, is preferred over a conventional thiazide diuretic such as bendroflumethiazide (Source 1)."
+    },
+    {
+      "question": "Which class of blood pressure drug is preferred for a patient with African-Caribbean heritage?",
+      "answer": "An angiotensin II receptor blocker (ARB) is preferred for a patient with African-Caribbean heritage (Source 3)."
+    },
+    {
+      "question": "How many daytime readings must be averaged when using a 24-hour monitor to confirm high blood pressure?",
+      "answer": "At least 14 measurements taken during the person's usual waking hours (Source 1, 1.2.6)."
+    },
+    {
+      "question": "Should adults with type 1 diabetes take aspirin to prevent a first heart attack or stroke?",
+      "answer": "No, adults with type 1 diabetes should not take aspirin for the primary prevention of cardiovascular disease (Source 2)."
+    },
+    {
+      "question": "What treatments are offered to a person with heart failure who developed swelling of the face and throat after taking an ACE inhibitor?",
+      "answer": "According to Source 2, for people with angioedema after taking an ACE inhibitor, or who have symptoms of intolerance to ARNIs, offer a beta-blocker, MRA and SGLT2 inhibitor and consider an ARB. (Source 2)"
+    },
+    {
+      "question": "How many times does someone with heart failure need the pneumococcal jab?",
+      "answer": "Only once (Source 1, 1.9.8)"
+    },
+    {
+      "question": "When bone infection is suspected in a diabetic foot but the first X-ray is inconclusive, what further imaging should be considered?",
+      "answer": "If osteomyelitis is suspected in a person with diabetes but is not confirmed by initial X-ray, consider an MRI to confirm the diagnosis. (Source 1)"
+    },
+    {
+      "question": "Is a low-protein diet advised for adults with kidney disease?",
+      "answer": "No, a low-protein diet is not advised for adults with CKD (Source 3)."
+    },
+    {
+      "question": "What mental health problems should diabetes teams watch for in adults with type 1 diabetes who are struggling with self-management?",
+      "answer": "Diabetes professionals should be alert to possible clinical or subclinical depression and/or anxiety, particularly if someone reports or appears to be having difficulties with self-management (Source 3)."
+    },
+    {
+      "question": "At what level of kidney function is metformin contraindicated in people with type 2 diabetes?",
+      "answer": "According to Source 1, metformin is contraindicated in people with type 2 diabetes and an estimated glomerular filtration rate (eGFR) of less than 30 ml/min/1.73 m^2 (Source 1)."
+    },
+    {
+      "question": "What starting dose of ramipril is recommended for adults with hypertension?",
+      "answer": "I can't find this in the documents."
+    },
+    {
+      "question": "How should glaucoma be treated in people with diabetes?",
+      "answer": "I can't find this in the documents."
+    },
+    {
+      "question": "Should people with heart failure have a COVID-19 vaccination?",
+      "answer": "I can't find this in the documents."
+    },
+    {
+      "question": "Are honey dressings recommended for diabetic foot ulcers?",
+      "answer": "I can't find this in the documents."
+    },
+    {
+      "question": "What INR target should be used for people with diabetes who take warfarin?",
+      "answer": "I can't find this in the documents."
+    }
+  ]
+}

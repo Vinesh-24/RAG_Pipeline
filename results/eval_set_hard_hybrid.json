@@ -1,0 +1,24 @@
+{
+  "mode": "hybrid",
+  "recall_at_5": 0.9,
+  "hits": 9,
+  "answerable": 10,
+  "refused": 5,
+  "unanswerable": 5,
+  "avg_seconds": {
+    "embed": 0.009041591599816457,
+    "dense": 0.004389787599575356,
+    "bm25": 0.0010811706990352832,
+    "fuse": 1.3258199760457501e-05,
+    "generate": 2.311512483200204
+  },
+  "missed": [
+    {
+      "question": "How many times does someone with heart failure need the pneumococcal jab?",
+      "source": "chronic-heart",
+      "pages": [
+        29
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "mode": "rerank",
+  "recall_at_5": 1.0,
+  "hits": 30,
+  "answerable": 30,
+  "refused": 5,
+  "unanswerable": 5,
+  "avg_seconds": {
+    "embed": 0.00846728473334224,
+    "dense": 0.004361516667268006,
+    "bm25": 0.0010370721325064854,
+    "fuse": 1.2488932892059287e-05,
+    "rerank": 0.2733867165336657,
+    "generate": 0.9417755000016769
+  },
+  "missed": []
+}

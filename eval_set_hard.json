@@ -1,0 +1,17 @@
+[
+  {"question": "If a water tablet is needed to lower blood pressure, which type is preferred over bendroflumethiazide?", "source": "hypertension", "key_fact": ["indapamide"], "answers": [{"page": 20, "evidence": "thiazide-like diuretic, such as indapamide"}]},
+  {"question": "Which class of blood pressure drug is preferred for a patient with African-Caribbean heritage?", "source": "hypertension", "key_fact": ["arb", "angiotensin ii receptor blocker", "angiotensin receptor blocker"], "answers": [{"page": 18, "evidence": "consider an angiotensin II receptor blocker (ARB), in preference to"}]},
+  {"question": "How many daytime readings must be averaged when using a 24-hour monitor to confirm high blood pressure?", "source": "hypertension", "key_fact": ["14"], "answers": [{"page": 8, "evidence": "average value of at least 14 measurements"}]},
+  {"question": "Should adults with type 1 diabetes take aspirin to prevent a first heart attack or stroke?", "source": "type-1", "key_fact": ["do not", "should not", "not recommended", "no"], "answers": [{"page": 35, "evidence": "Do not offer aspirin for the primary prevention of cardiovascular disease in adults with type 1 diabetes"}]},
+  {"question": "What treatments are offered to a person with heart failure who developed swelling of the face and throat after taking an ACE inhibitor?", "source": "chronic-heart", "key_fact": ["beta-blocker"], "answers": [{"page": 14, "evidence": "offer a beta-blocker, MRA and SGLT2 inhibitor and"}]},
+  {"question": "How many times does someone with heart failure need the pneumococcal jab?", "source": "chronic-heart", "key_fact": ["once", "one time", "single"], "answers": [{"page": 29, "evidence": "only required once"}]},
+  {"question": "When bone infection is suspected in a diabetic foot but the first X-ray is inconclusive, what further imaging should be considered?", "source": "diabetic-foot", "key_fact": ["mri"], "answers": [{"page": 16, "evidence": "consider an MRI to confirm the diagnosis"}]},
+  {"question": "Is a low-protein diet advised for adults with kidney disease?", "source": "chronic-kidney", "key_fact": ["do not", "should not", "not recommended", "no"], "answers": [{"page": 20, "evidence": "Do not offer low-protein diets"}]},
+  {"question": "What mental health problems should diabetes teams watch for in adults with type 1 diabetes who are struggling with self-management?", "source": "type-1", "key_fact": ["depression"], "answers": [{"page": 46, "evidence": "subclinical depression"}]},
+  {"question": "At what level of kidney function is metformin contraindicated in people with type 2 diabetes?", "source": "type-2", "key_fact": ["30"], "answers": [{"page": 23, "evidence": "metformin for people with chronic kidney disease and an eGFR of less than 30"}, {"page": 62, "evidence": "offer modified-release metformin and an SGLT-2 inhibitor"}]},
+  {"question": "What starting dose of ramipril is recommended for adults with hypertension?", "answerable": false},
+  {"question": "How should glaucoma be treated in people with diabetes?", "answerable": false},
+  {"question": "Should people with heart failure have a COVID-19 vaccination?", "answerable": false},
+  {"question": "Are honey dressings recommended for diabetic foot ulcers?", "answerable": false},
+  {"question": "What INR target should be used for people with diabetes who take warfarin?", "answerable": false}
+]
